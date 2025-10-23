@@ -1,1 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
 @import "tailwindcss";
+
+/* fonts */
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* To show the line in pages Nav */
+
+a.active hr{
+    display: block;
+   
+}
+
+/* To change BG in sidebar links */
+
+.sidebar a.active{
+    background-color: black;
+    color: #EBEBEB;
+}
+
+/* to remove scrollBar */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* to remove arrow from input type number */
+input[group="number"]::-webkit-outer-spin-button,
+input[group="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[group="number"] {
+    -moz-appearance: textfield;
+}
